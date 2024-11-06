@@ -22,7 +22,7 @@
 	var ranking = document.getElementById("ranking");
 	
 	var hr = new XMLHttpRequest();
-	hr.open("GET", "11_json_data.json",true);
+	hr.open("GET", "12_json_data.json",true);
 	hr.send();
 
 	hr.onreadystatechange = function(){
